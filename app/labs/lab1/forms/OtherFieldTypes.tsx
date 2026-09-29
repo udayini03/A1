@@ -18,6 +18,24 @@ export default function OtherFieldTypes() {
         id="wd-text-fields-salary-start"
       />
       <br />
+      <label htmlFor="wd-text-fields-rating">Rating: </label>
+      <input
+        type="range"
+        defaultValue="4"
+        min="1"
+        max="5"
+        id="wd-text-fields-rating"
+      />
+      <br />
+      <label htmlFor="wd-text-fields-dob">Date of birth: </label>
+      <input
+        type="date"
+        defaultValue="2000-01-21"
+        min="1900-01-01"
+        max="2025-12-31"
+        id="wd-text-fields-dob"
+      />
+      <br />
     </>
   );
 }

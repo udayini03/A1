@@ -5,6 +5,9 @@ import Tables from "./Tables";
 import Images from "./Images";
 import Forms from "./forms/Forms";
 import OtherFieldTypes from "./forms/OtherFieldTypes";
+import HighlightedParagraphLab from "./HighlightedParagraph";
+import HighlightedBoxLab from "./HighlightedBox";
+import AnchorTag from "./AnchorTag";
 
 export default function Lab1() {
   return (
@@ -18,6 +21,9 @@ export default function Lab1() {
       <Images />
       <Forms />
       <OtherFieldTypes />
+      <HighlightedParagraphLab />
+      <HighlightedBoxLab />
+      <AnchorTag />
       {/* do the next exercise here */}
     </div>
   );
